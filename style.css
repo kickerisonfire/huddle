@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  background-size: cover;
+}
+
+header {
+  padding: 8px 16px;
+  height: 15vh;
+}
+
+.huddle-logo {
+  width: 30%;
+}
+
+.container {
+  width: 378px;
+  height: 85vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-img {
+  width: 70%;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+p {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.849);
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 24px;
+}
+
+.btn {
+  background-color: white;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: #684bb1;
+  box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+}
+
+.btn:active {
+  border-color: #e880e8;
+  background-color: #e880e8;
+  color: white;
+}
+
+/**************************************/
+/* SOCIAL MEDIA BUTTONS */
+/**************************************/
+
+.media-buttons {
+  padding-bottom: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.media-buttons .logo {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 7px 8px 6px 8px;
+}
+
+.facebook {
+  height: 20px;
+  width: 20px;
+}
+
+.tw {
+  height: 20px;
+  width: 20px;
+}
+
+.inst {
+  height: 20px;
+  width: 20px;
+}
+
+svg path {
+  fill: white;
+}
+
+.logo:hover svg path {
+  fill: #e880e8;
+}
+
+.logo:hover {
+  border-color: #e880e8;
+}

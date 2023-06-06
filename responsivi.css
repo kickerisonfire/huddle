@@ -1,0 +1,58 @@
+/**************************************/
+/* MOBILE-VERSION */
+/**************************************/
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+  }
+
+  .huddle-logo {
+    width: 15%;
+  }
+
+  .container {
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px;
+    text-align: left;
+  }
+
+  .hero-img {
+    width: 50%;
+  }
+
+  .inner-container {
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .btn:hover {
+    border-color: #e880e8;
+    background-color: #e880e8;
+    color: white;
+  }
+
+  .media-buttons {
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+  }
+}
